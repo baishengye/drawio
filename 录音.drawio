@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-13T03:17:40.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lHqk1qtsDxf4lXl7Y2PX" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-13T05:30:47.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uSmwpWPWKaFlz_wy7fJG" version="21.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,24 +8,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="按下按钮开始录制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+          <mxGeometry x="160" y="-130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jn2Spj3KKP_-GAii750T-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jn2Spj3KKP_-GAii750T-0" target="WIyWlLk6GJQsqaUBKTNV-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jn2Spj3KKP_-GAii750T-0" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="-20" width="100" height="60" as="geometry" />
+          <mxGeometry x="170" y="-260" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jn2Spj3KKP_-GAii750T-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jn2Spj3KKP_-GAii750T-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="255" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="jn2Spj3KKP_-GAii750T-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jn2Spj3KKP_-GAii750T-10" target="jn2Spj3KKP_-GAii750T-92">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jn2Spj3KKP_-GAii750T-10" value="初始化录音配置" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="-50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jn2Spj3KKP_-GAii750T-32" value="初始化录音配置" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="-70" width="200" height="550" as="geometry" />
+          <mxGeometry x="1180" y="60" width="200" height="550" as="geometry" />
         </mxCell>
         <mxCell id="jn2Spj3KKP_-GAii750T-2" value="创建录音保存文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jn2Spj3KKP_-GAii750T-32">
           <mxGeometry x="40" y="90" width="120" height="50" as="geometry" />
@@ -90,7 +88,7 @@
         <mxCell id="jn2Spj3KKP_-GAii750T-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jn2Spj3KKP_-GAii750T-44" target="jn2Spj3KKP_-GAii750T-41">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="110" y="390" />
+              <mxPoint x="110" y="410" />
               <mxPoint x="110" y="290" />
             </Array>
           </mxGeometry>
@@ -98,11 +96,14 @@
         <mxCell id="jn2Spj3KKP_-GAii750T-44" value="读取数据，进行编码，计算音量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="380" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jn2Spj3KKP_-GAii750T-48" target="jn2Spj3KKP_-GAii750T-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jn2Spj3KKP_-GAii750T-48" value="结束录音，释放资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jn2Spj3KKP_-GAii750T-52" value="进行编码" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="770" y="-70" width="460" height="550" as="geometry" />
+          <mxGeometry x="670" y="60" width="460" height="550" as="geometry" />
         </mxCell>
         <mxCell id="jn2Spj3KKP_-GAii750T-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jn2Spj3KKP_-GAii750T-52" source="jn2Spj3KKP_-GAii750T-53">
           <mxGeometry relative="1" as="geometry">
@@ -174,6 +175,69 @@
           <mxGeometry x="-0.2444" y="1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jn2Spj3KKP_-GAii750T-78" target="jn2Spj3KKP_-GAii750T-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-84" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jn2Spj3KKP_-GAii750T-81">
+          <mxGeometry x="0.1077" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jn2Spj3KKP_-GAii750T-78" target="jn2Spj3KKP_-GAii750T-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-85" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jn2Spj3KKP_-GAii750T-83">
+          <mxGeometry x="-0.0333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-78" value="判断音频是否大于2s" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jn2Spj3KKP_-GAii750T-80" target="jn2Spj3KKP_-GAii750T-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-80" value="保存音频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jn2Spj3KKP_-GAii750T-82" target="jn2Spj3KKP_-GAii750T-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-82" value="删除音频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-86" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="640" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jn2Spj3KKP_-GAii750T-92" target="jn2Spj3KKP_-GAii750T-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-92" value="启动超时判断" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jn2Spj3KKP_-GAii750T-95" target="jn2Spj3KKP_-GAii750T-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-98" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jn2Spj3KKP_-GAii750T-97">
+          <mxGeometry x="0.6" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jn2Spj3KKP_-GAii750T-95" target="jn2Spj3KKP_-GAii750T-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-100" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jn2Spj3KKP_-GAii750T-99">
+          <mxGeometry x="-0.16" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn2Spj3KKP_-GAii750T-95" value="是否超时" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="140" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
